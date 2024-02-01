@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 0, 0);
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0;
+    background: linear-gradient(rgba(255, 0, 0, 0.276), rgba(255, 68, 0, 0.678), rgba(255, 166, 0, 0.573));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .container h1 {
+    color: rgb(236, 17, 17);
+    background: rgb(165, 165, 165);
+    padding: 2rem;
+    border-radius: 20px;
+    margin: 2em, 4em;
+  }
+  
+  .app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #e67239;
+    width: 230px;
+    border-radius: 13px;
+  }
+  
+  .screen {
+    width: 100%;
+    background: #d05d0a;
+    color: #fff;
+    font-size: 3.6rem;
+    margin-top: 2rem;
+    text-align: right;
+    padding: 1rem 0.5rem;
+    
+  }
+  
+  
+  
+  .btns {
+    width: 230px;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-areas: 
+    '. . . .'
+    '. . . .'
+    '. . . .'
+    '. . . .'
+    'z z . .';
+  }
+  
+  .btn {
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: rgb(227, 227, 227);
+    background: rgb(162, 172, 17);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: backgroundColor, 0.3s ease;
+  }
+  
+  .zero {
+    grid-area: z;
+    width: 100%;
+    border-radius: 40px;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+    background: rgb(197, 11, 11);
+  }
+  
+  .grey {
+    background: rgb(165, 165, 165);
+  }
+  
+  .orange {
+    background: rgb(218, 143, 14);
+  }
+  
+  
+  
